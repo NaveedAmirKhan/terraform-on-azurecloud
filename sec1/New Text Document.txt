@@ -12,7 +12,7 @@ terraform {
 provider azurerm {
   features {}
 }
-
+#this mis my firt git repo
 resource azurerm_resource_group rg {
   name     = myTFResourceGroup
   location = westus2
